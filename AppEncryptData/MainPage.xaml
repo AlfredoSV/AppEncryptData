@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEncryptData.MainPage">
+
+    <Grid RowDefinitions="*,*" BackgroundColor="Black">
+
+        <Frame Grid.Row="0" BackgroundColor="Green" Margin="10,10,10,10">
+            <VerticalStackLayout>
+                <Entry  Placeholder="Text to encrypt" BackgroundColor="White" Margin="5,5,5,5"></Entry>
+                <Entry Placeholder="Key for encryption"  BackgroundColor="White" Margin="5,5,5,5"></Entry>
+            </VerticalStackLayout>
+        </Frame>
+        <Frame Grid.Row="1" BackgroundColor="Blue" Margin="10,10,10,10">
+            <VerticalStackLayout>
+                <Entry Placeholder="Result"  BackgroundColor="White" Margin="5,5,5,5"></Entry>
+                <Button Text="Encrypt" BackgroundColor="Green" Margin="5,5,5,5"></Button>
+            </VerticalStackLayout>
+        </Frame>
+
+    </Grid>
+   
+</ContentPage>
